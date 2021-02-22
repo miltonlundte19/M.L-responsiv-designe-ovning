@@ -34,16 +34,14 @@ body {
     position: relative;
     z-index: 7;
   }
+
+  .nav-link {
   
-  .nav-lis{
     float:left;
     width: 33%;
     margin: 0;
     padding: 0;
-  }
-  
-  .nav-link {
-     padding-right: 1rem;
+    text-align: center;
   }
 
   /* Small devices (tablets, 768px and up) */
