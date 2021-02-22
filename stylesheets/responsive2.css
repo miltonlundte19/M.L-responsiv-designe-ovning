@@ -1,0 +1,37 @@
+/* elements */
+body {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0;
+  }
+  
+  img {
+    height: auto;
+    max-width: 100%;
+  }
+  
+  h1 {
+    font-size: 2.4rem;
+    font-weight: 800;
+  }
+  
+  h2 {
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+  
+  .container {
+    margin: 0 auto;
+    padding-left: .5rem;
+    padding-right: .5rem;
+  }
+  
+  .nav {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-link {
+    padding-right: 1rem;
+  }
