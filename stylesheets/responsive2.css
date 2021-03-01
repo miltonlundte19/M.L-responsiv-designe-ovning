@@ -3,6 +3,7 @@ body {
     font-size: 1rem;
     line-height: 1.5;
     margin: 0;
+    font-family: 'Times New Roman', Times, serif;
   }
   
   img {
@@ -22,8 +23,8 @@ body {
   
   .container {
     margin: 0 auto;
-    padding-left: .5rem;
-    padding-right: .5rem;
+    padding-left: .7rem;
+    padding-right: .7rem;
   }
   
   .nav {
@@ -43,6 +44,28 @@ body {
     padding: 0;
     text-align: center;
   }
+ 
+  .lina:link {
+    color: blue;
+  background-color: transparent;
+  text-decoration: none;
+  }
+  .visia:visited {
+    color: rgb(0, 0, 255);
+  }
+  
+  .hovea:hover {
+    color: rgb(0, 0, 255);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  .aktia:active {
+    color: rgb(91, 91, 255);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
 
   /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
